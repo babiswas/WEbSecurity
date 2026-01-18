@@ -1,0 +1,18 @@
+JSON Hijacking
+===============
+1.User authenticated to target website ,visit malicious site.the malicious site able to make request to target server bypassing authentication(user is already authenticated) and 
+
+a)Personal data
+b)Session Hijacking(stealing authentication token.)
+c)API exploitation
+d)Unauthorized data access.
+
+Steps:
+1.The attacker gets an authenticated user to visit a malicious page to read their data.
+2.From where we have logged in, the malicious page will try to access the sensitive data by embedding a script tag in an HTML document. i.e.
+
+
+<script src="http://<jsonsite>/abc.php"></script>
+
+
+Access-Control-Allow-Origin header should be used for a service to prevent json hijacking.
