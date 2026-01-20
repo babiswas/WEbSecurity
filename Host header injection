@@ -23,3 +23,5 @@ Content is served based on host header
 If host header is manipulated ,server may serve u attackers malicious content
 1.Password reset poisioning
 2.Web cache poisioning
+
+Host header injection(HHI)
