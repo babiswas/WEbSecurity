@@ -1,0 +1,11 @@
+Stateless session can be implemented using JWT.
+JWT
+1.Header
+2.Payload {user,role,time started,time expiry}
+3.Secret 
+
+Header(Base64 encoded).Payload(Base64 encoded).Secret
+
+Secret is created by hashing the (header+payload) using secret key.
+
+if the Secret matches with secret genearted by the server than the server provides data else server rejects the request.
