@@ -1,1 +1,2 @@
-Exploiting CL,TE vulnerabilities
+Exploiting CL,TE vulnerabilities.
+Single http request becomes two logical http request when two servers disagree on http parsing
